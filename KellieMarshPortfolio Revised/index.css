@@ -1,0 +1,311 @@
+.body {
+    max-width: 1440px;
+} 
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 250px;
+    background-color: #808080;
+    padding: 0.4rem 0.8rem;
+}
+
+
+.sidebarContainer {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top: 70px;
+    margin-left: 15px;
+}
+
+.me {
+    color: white;
+    font-size: 60px;
+    font-family: raleway;
+    margin-bottom: 15px;
+}
+
+.job {
+    color: white;
+    font-size: 30px;
+    font-family: raleway;
+    margin-bottom: 50px;
+}
+
+
+.btn1 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.btn2 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.btn3 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.btn5 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.btn6 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.button { 
+    color: white;
+    font-size: 20px;
+    font-family: raleway;
+    text-decoration: none; 
+}
+
+.socials {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.socials a {
+    color: white;
+    font-size: 20px;
+    border-width: 2px;
+    border-style: solid;
+    padding:3px;
+    margin-right:10px;
+    margin-top: 20px;
+}
+
+a:hover {
+    color: #ffb5b5;
+}
+
+.mainContent {
+    position: fixed; 
+    min-height: 100vh;
+    margin-top: 20px;
+    margin-left: 300px;
+    margin-right: 20px;
+    width: calc(100% - 250px);
+}
+
+.content {
+    width: calc(100% - 250px);
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items:center;
+    transform: translatey(400px);
+}
+
+.quote {
+    color:#808080;
+    font-family: raleway;
+    font-size: 40px;
+    size: 1000px;
+    font-weight: bold;
+}
+
+.quoteAuthor {
+        color:#808080;
+        font-size: 25px;
+        width: 1000px;
+        font-family: raleway;
+}
+
+@media (max-width: 480px) {
+    .sidebar {
+            width: 100%;
+            padding: 0rem 0rem;
+        }
+    
+    .sidebarContainer {
+            width: 100%;
+            justify-content: center;
+            text-align: center;
+            margin-left: 10px;
+            margin-right: 10px;
+            margin-top:155px;
+    }
+
+    .btn1 {
+            margin-top: 20px;
+            margin-bottom: 20px;
+    }
+  
+    .btn2 {
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+        
+    .btn3 {
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+        
+    .btn5 {
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+    
+        
+    .btn6 {
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+    .socials {
+            justify-content: center;
+        }
+
+    .mainContent {
+            display:none;
+        }
+
+    .quote {
+            display:none;
+        }
+
+    .quoteAuthor {
+                display:none;
+        }
+
+    .content {
+        display:none;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 769px) {
+    .sidebar {
+        width: 100%;
+        padding: 0rem 0rem;
+    }
+
+        .sidebarContainer {
+            width: 100%;
+            justify-content: center;
+            text-align: center;
+            margin-left: 10px;
+            margin-right: 10px;
+            margin-top: 155px;
+        }
+
+        .btn1 {
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+        .btn2 {
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+        .btn3 {
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+        .btn5 {
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+
+        .btn6 {
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+        .socials {
+            justify-content: center;
+        }
+
+        .mainContent {
+            display:none;
+        }
+
+        .quote {
+            display:none;
+        }
+
+        .quoteAuthor {
+                display:none;
+        }
+
+        .content {
+        display:none;
+        }
+}
+    
+    @media (min-width: 770px) and (max-width: 1300px) {
+        .sidebar {
+           
+        }
+
+        .sidebarContainer {
+            
+        }
+
+        .btn7 {
+               display:none;
+        }
+
+        .mainContent {
+           
+        }
+
+        .pageHeader {
+            right:30px; 
+        }
+    
+        .pageTitle {
+                font-size: 40px;
+               
+        }
+
+        .content {
+                width: 600px;           
+        }   
+}
+
+@media (min-width: 1300px) and (max-width: 1570px) {
+    .sidebar {
+           
+    }
+
+    .sidebarContainer {
+        
+    }
+
+    .btn7 {
+           display:none;
+    }
+
+    .mainContent {
+       justify-content: center;
+       margin-right: 300px;
+    }
+
+    .pageHeader {
+        right:30px; 
+    }
+
+    .pageTitle {
+            font-size: 40px;
+           
+    }
+
+    .content {
+            width: 800px;           
+    }   
+}

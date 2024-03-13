@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Croissant+One&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Croissant+One&family=IBM+Plex+Mono:ital,wght@1,100&family=PT+Sans+Narrow&family=Playfair+Display&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Croissant+One&family=IBM+Plex+Mono:ital,wght@1,100&family=PT+Sans+Narrow&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <link rel="stylesheet" href="ContactMe.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="icon" href="images/favicon.png" sizes="192x192">
+    <link rel="shortcut icon" href="images/favicon.png">
+    <link rel="apple-touch-icon" href="images/favicon.png">
+
+    <script defer src="ContactMe.js"></script>
+
+
+</head>
+
+<body>
+
+
+    <div class="sidebar">
+        <div class="sidebarContainer">
+            <div class="me">KELLIE MARSH
+            </div>
+            <div class="job">FULL STACK SOFTWARE DEVELOPER</div>
+
+            <div class="btn1">
+                <a class="button" href="AboutMe.html">ABOUT ME</a>
+            </div>
+            <div class="btn5">
+                <a class="button" href="SoftwareSkills.html">SOFTWARE SKILLS</a>
+            </div>
+            <div class="btn2">
+                <a class="button" href="Portfolio.html">PORTFOLIO</a>
+            </div>
+            <div class="btn3">
+                <a class="button" href="ContactMe.html">CONTACT ME</a>
+            </div>
+            <div class="btn6">
+                <a class="button" href="index.html">HOME</a>
+            </div>
+        </div>
+
+        <nav class="socials">
+            <a href="https://uk.linkedin.com/in/kellie-marsh-47212255" target="_blank"><i
+                    class="fa-brands fa-linkedin"></i></a>
+            <a href="https://github.com/Kel-E-creator" target="_blank"><i class="fa-brands fa-github"></i></a>
+        </nav>
+    </div>
+
+    <div class="mainContent">
+
+        <div class="pageHeader">
+            <h2 class="pageTitle">CONTACT ME</h2>
+        </div>
+           
+        <div>
+            <a class="btn7" href="index.html">MAIN MENU</a>
+        </div>
+        
+        <div class="content">
+            <p class="mainText">If you like what you see, and would like to get in touch please click on the
+                button, fill out the form and I will get back to you.</p>
+
+            <a class="button2 modal-toggle" href="#">Click me for the magic</a>
+
+          
+        </div>
+            
+            
+
+        <section class="modal" id="modal">
+            <div class="modalHeader">
+                <div class="modalTitle">CONTACT ME</div>
+                <div class="exit">
+                <i class="fas fa-window-close modal-toggle" id="closeButton"></i>
+                </div>
+            </div>
+
+            
+            <form class="form-grid" id="contactForm" action="https://formsubmit.co/540d9dde29ac5f4d26276a2dd2856559" method="POST" target="_blank">
+                <div class="inputFields">
+                    <label class="name" for="name">NAME <span class="required">*</span></label>
+                    <br>
+                    <input type="text" placeholder="Jason Momoa" id="name" name="name"/>
+                    <div>
+                        <label class="instructions" for="name" id="nameError">Minimum of 3 characters</label>
+                    </div>
+                </div>
+
+                <div class="inputFields">
+                    <label for="email">EMAIL <span class="required">*</span></label>
+                    <br>
+                    <input type="email" placeholder="jason@momoa.com" id="email" name="email"/>
+                    <div>
+                        <label class="instructions" for="email" id="emailError">Maximum of 200 characters</label>
+                    </div>
+                </div>
+
+                <div class="inputFields">
+                    <label for="reason">HOW MAY I ASSIST YOU? <span class="required">*</span></label>
+                    <div>
+                        <textarea id="reason" placeholder="I think your work is amazing, I would like to offer you a job" name="reason"></textarea>
+                    </div>
+                        <label class="instructions" for="reason" id="reasonError">Maximum 1000 characters</label>
+                </div>
+
+                <div class="inputFields">
+                    <p class="required">* required fields</p>
+                </div>
+
+                <div>
+                    <input type="submit" value="SEND MESSAGE" class="submit inputFields" id="submit">
+                </div>
+
+            </form>
+
+            <div class="hidden" id="thankYou">THANK YOU FOR YOUR MESSAGE. I WILL BE INTOUCH SHORTLY</div>
+           
+            </section>
+        
+        <div id="overlay" class="hidden"></div>
+      
+    </div>
+
+</body>
+
+</html>

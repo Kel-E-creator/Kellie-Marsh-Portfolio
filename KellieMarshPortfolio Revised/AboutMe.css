@@ -1,0 +1,401 @@
+.body {
+    max-width: 1440px;
+} 
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 250px;
+    background-color: #808080;
+    padding: 0.4rem 0.8rem;
+}
+
+
+.sidebarContainer {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top: 70px;
+    margin-left: 15px;
+}
+
+.me {
+    color: white;
+    font-size: 60px;
+    font-family: raleway;
+    margin-bottom: 15px;
+}
+
+.job {
+    color: white;
+    font-size: 30px;
+    font-family: raleway;
+    margin-bottom: 50px;
+}
+
+.button { 
+    color: white;
+    font-size: 20px;
+    font-family: raleway;
+    text-decoration: none;   
+}
+
+.btn1 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.btn2 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.btn3 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.btn5 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.btn6 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.btn7 {
+    display:none;
+    color: white;
+    background-color: #808080;
+    padding: 6px;
+    border-radius: 4px;
+    font-size: 15px;
+    font-family: raleway;
+    text-decoration: none;
+}
+
+.socials {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.socials a {
+    color: white;
+    font-size: 20px;
+    border-width: 2px;
+    border-style: solid;
+    padding:3px;
+    margin-right:10px;
+    margin-top: 20px;
+}
+
+a:hover {
+    color: #ffb5b5;
+}
+
+.mainContent {
+    position: fixed; 
+    min-height: 100vh;
+    margin-top: 20px;
+    margin-left: 300px;
+    margin-right: 20px;
+    width: calc(100% - 250px);
+}
+
+.pageHeader {
+    position: relative;
+    right: 100px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.pageTitle {
+    font-size: 50px;
+    color: #808080;
+    font-family:'raleway';
+}
+
+.content {
+    margin: 0 auto;
+    width: calc(100% - 250px);
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    transform: translateX(-80px);
+    gap: 50px;
+ }
+
+.mainText {
+    color:#808080;
+    font-size: 25px;
+    width: 1000px;
+}
+
+img {
+    width: 400px;
+    height: 500px;
+    border-color:#808080;
+    border-width: 5px;
+    border-style: solid;
+}
+
+.highlight {
+    font-weight: bold;
+    color: #ffb5b5;
+}
+
+@media (max-width: 480px) {
+    .sidebar {
+        display: none;
+    }
+
+    .sidebarContainer {
+        display: none;
+    }
+
+    .btn7 {
+           display:block;
+           margin-top: 20px;
+    }
+
+    .mainContent {
+            width: 100%; 
+            margin-left: 0px;
+            margin-right: 0px;
+            margin-top: 10px;
+            position: relative; 
+            padding: 5px;
+    }
+
+    .pageHeader {
+        right: 0px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .pageTitle {
+            font-size: 40px;
+           
+    }
+
+    .content {
+            width: 100%;
+            transform: translateX(0px);
+            gap: 10px;
+            flex-direction: column;
+            margin-top: 0px;
+    }
+
+    .title {
+            width: 100%;
+            font-size: 25px;
+    }
+        
+    .mainText {
+        width: 100%;
+        font-size: 20px;
+    }
+
+    img {
+            width: 200px;
+            height: 250px;
+        }
+}
+
+@media (min-width: 481px) and (max-width: 769px) {
+    .sidebar {
+        display: none;
+    }
+
+    .sidebarContainer {
+        display: none;
+    }
+
+    .btn7 {
+           display:block;
+           margin-top: 20px;
+    }
+
+    .mainContent {
+            width: 100%; 
+            margin-left: 0px;
+            margin-right: 0px;
+            margin-top: 10px;
+            position: relative; 
+    }
+
+    .pageHeader {
+        right: 0px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .pageTitle {
+            font-size: 40px;
+           
+    }
+
+    .content {
+            width: 100%;
+            transform: translateX(0px);
+            gap: 10px;
+            flex-direction: column;
+            margin-top: 0px;
+            padding: 10px;
+    }
+
+    .logoName {
+        font-size: 15px;
+        }
+
+    .software i {
+            font-size: 50px;
+    }
+
+    .title {
+            width: 100%;
+            font-size: 25px;
+    }
+        
+    .mainText {
+        width: 100%;
+        font-size: 20px;
+    }
+
+    img {
+        width: 200px;
+        height: 250px;
+    }
+}
+
+
+@media (min-width: 770px) and (max-width: 1300px) {
+    .sidebar {
+       
+    }
+
+    .sidebarContainer {
+        
+    }
+
+    .btn7 {
+           display:none;
+    }
+
+    .mainContent {
+        position: relative; 
+        margin-left: 260px;  
+    }
+
+    .pageHeader {
+        right:20px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .pageTitle {
+            font-size: 40px;
+           
+    }
+
+    .content {
+            width: 600px;
+            transform: translateX(0px);
+            gap: 10px;
+            flex-direction: column;
+            margin-top: 0px;
+    }
+
+    .logoName {
+        font-size: 15px;
+        }
+
+    .software i {
+            font-size: 50px;
+    }
+
+    .title {
+            width: 100%;
+            font-size: 25px;
+    }
+        
+    .mainText {
+        width: 100%;
+        font-size: 20px;
+    }
+
+    img {
+        width: 200px;
+        height: 250px;
+    }
+
+}
+
+    @media (min-width: 1300px) and (max-width: 1570px) {
+        .sidebar {
+           
+        }
+
+        .sidebarContainer {
+            
+        }
+
+        .btn7 {
+               display:none;
+        }
+
+        .mainContent {
+            position: relative; 
+            margin-left: 260px;  
+        }
+
+        .pageHeader {
+            right:30px; 
+        }
+    
+        .pageTitle {
+                font-size: 40px;
+               
+        }
+
+        .content {
+                width: 1000px;
+                transform: translateX(0px);
+                gap: 10px;
+                flex-direction: column;
+                margin-top: 50px;
+        }
+
+        .logoName {
+            font-size: 15px;
+            }
+
+        .software i {
+                font-size: 50px;
+        }
+
+        .title {
+                width: 100%;
+                font-size: 25px;
+        }
+            
+        .mainText {
+            width: 100%;
+            font-size: 20px;
+        }
+
+        img {
+            width: 300px;
+            height: 400px;
+        }
+}

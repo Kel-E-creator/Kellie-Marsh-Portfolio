@@ -1,0 +1,64 @@
+{
+    "projects": [
+        {
+        "name": "BOOKSWAP API",
+        "image": "Images/Bookswap.jpg",
+        "type": "GROUP",
+        "software": "PHP, lARAVEL, SEQUEL ACE, POSTMAN",
+        "description": "Working as part of a team of 6 developers, using mobbing and pair programming we were tasked to build a Book Swap API that connects to the front end website we previously built that manages a communal bookshelf.  This API was built to the following document specification https://github.com/iO-Academy/book-swap-api-docs/blob/main/README.md. All routes were thoroughly tested using route tests to ensure project future maintainabilty. On the website the users can: ",
+        "description2": ["See all the books that are available for borrowing", "Claim a book", "See all the books that are currently claimed", "Return a book", "Review a book", "Add a new book", "search and filter books"],
+        "live-link": "https://23-sept-cat-mode-bookswap-fe.dev.io-academy.uk/#top",
+        "git-hub": "https://github.com/iO-Academy/23-sept-catmode-bookswap-api",
+        "authors": ["Kellie Marsh - @ Kel-E-Creator", "Henry Meager - @henrymeager", "Andrei Trifu - @andrei-trifu", "Timothy Williamson - @GDTimi", "Siphosenkosi Ndlouv - @Sipho-Ndlovu", "Sophie Preston - @W1z4rdK1tty"]
+        },
+
+        {
+        "name": "BOOKSWAP FRONT END",
+        "image": "Images/Bookswap.jpg",
+        "type": "GROUP",
+        "software": "REACT, HTML, CSS",
+        "description": "Working as part of a team of 6 developers, using pair programming we were tasked to build a Book Swap website that manages a communal bookshelf.On the website the users can: ",
+        "description2": ["See all the books that are available for borrowing", "Claim a book", "See all the books that are currently claimed", "Return a book", "Review a book", "Add a new book", "search and filter books"],
+        "live-link": "https://23-sept-cat-mode-bookswap-fe.dev.io-academy.uk/#top",
+        "git-hub": "https://github.com/Kel-E-creator/Bookswap",
+        "authors": ["Kellie Marsh - @ Kel-E-Creator", "Henry Meager - @henrymeager", "Andrei Trifu - @andrei-trifu", "Timothy Williamson - @GDTimi", "Siphosenkosi Ndlouv - @Sipho-Ndlovu", "Sophie Preston - @W1z4rdK1tty"]
+        },
+
+        {
+        "name": "PORTFOLIO WEBSITE",
+        "image": "Images/PortfolioProject.jpg",
+        "type": "SOLO",
+        "software": "JAVASCRIPT, HTML, CSS",
+        "description": "This is the first coding project that I had ever created.  The task - Create a website in the design of your choice, that features the following sections or pages: About me, Contact me and Portfolio. Your porfolio projects need to be stored in a json file which are then displayed on the Portfolio page with a fetch request. ",
+        "description2":" ",
+        "live-link": " ",
+        "git-hub": " ",
+        "authors": ["Kellie Marsh - @ Kel-E-Creator"]
+        },
+
+        {
+        "name": "VINTAGE CAR E-COMMERCE STORE",
+        "image": "Images/PageUnderConstruction.jpg",
+        "type": "SOLO",
+        "software": "PHP, LARAVEL, SEQUEL ACE, HTML, CSS",
+        "description": "The task - Build and ecommerce store that displays all of its products. When you click on one of the products it takes you to the indiviual project page that displays further details on this product. Add filters to the display all products page so the choice of products can be narrowed down. Stretch goal add a search bar. ",
+        "description2":" ",
+        "live-link": " ",
+        "git-hub": " ",
+        "authors": ["Kellie Marsh - @ Kel-E-Creator"]
+        },
+
+        {
+        "name": "DVD COLLECTION PROJECT",
+        "image": "Images/PageUnderConstruction.jpg",
+        "type": "SOLO",
+        "software": "PHP, SEQUEL ACE, MYSQL, HTML, CSS",
+        "description": "The task - Create a database that can store a collection of items. Follow best practices by using OOP and writing unit tests. Display the database collection on a website. On the website users can: ",
+        "description2":["See all the items in the collection","Add a new item", "Delete an existing item (soft delete only)" , "Edit the item", "Filter the items", "Restore deleted items", "Search the collection"],
+        "live-link": " ",
+        "git-hub": " ",
+        "authors": ["Kellie Marsh - @ Kel-E-Creator"]
+        }
+
+    ]
+}
